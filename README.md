@@ -1,10 +1,6 @@
-# Project done by Sifiso Smangaliso Dladla
-https://github.com/Usmanga-28
-
-Mzansi-Flix
+#Mzansi-Flix
 Project Description
-Mzansi-Flix is an experimental streaming platform project with the goal of developing a web application served by ReactJS and powered by the Spring framework. 
-The project will set up a REST API to manage users, profiles, videos, support tickets, notifications, subscriptions, and a history of entries.
+Mzansi-Flix is an experimental streaming platform project with the goal of developing a web application served by ReactJS and powered by the Spring framework. The project will set up a REST API to manage users, profiles, videos, support tickets, notifications, subscriptions, and a history of entries.
 
 Key Technologies Used:
 
@@ -128,3 +124,46 @@ Use Multiple Encoders with Actuator
 
 Stack Persistence and Fault Tolerance Testing via Chaos Monkeys
 
+Getting Started
+Prerequisites
+Java
+
+Node.js
+
+MongoDB
+
+ffmpeg
+
+Installation
+Clone the repository:
+
+bash
+git clone https://github.com/your-username/mzansi-flix.git
+cd mzansi-flix
+Install Backend Dependencies:
+
+bash
+cd backend
+./mvnw install
+Install Frontend Dependencies:
+
+bash
+cd ../frontend
+npm install
+Set Up Environment Variables: Configure environment variables in application.properties, META-INF, and Docker environment variables as needed.
+
+Run the Application:
+
+bash
+cd ../backend
+./mvnw spring-boot:run
+Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgements
+Inspired by popular streaming platforms.
+
+Thanks to all contributors and supporters of this project.
