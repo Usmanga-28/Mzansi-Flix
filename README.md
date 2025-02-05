@@ -138,7 +138,7 @@ Installation
 Clone the repository:
 
 bash
-git clone https://github.com/your-username/mzansi-flix.git
+git clone https://github.com/your-username/mzansi-flix
 cd mzansi-flix
 Install Backend Dependencies:
 
